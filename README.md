@@ -40,4 +40,4 @@ Or, if you prefer Android:
 yarn run:android
 ```
 
-That's it! Cool, right?# react-native-starter
+That's it! Cool, right?
