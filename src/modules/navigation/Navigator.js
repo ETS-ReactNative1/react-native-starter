@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
-import { 
+import {
   createDrawerNavigator,
   DrawerItem,
   DrawerContentScrollView,
@@ -44,26 +44,26 @@ const Drawer = createDrawerNavigator();
 
 function CustomDrawerContent(props) {
   return (
-    <DrawerContentScrollView {...props} style={{padding: 0}}>
+    <DrawerContentScrollView {...props} style={{ padding: 0 }}>
       <View style={styles.avatarContainer}>
         <Image
           style={styles.avatar}
           source={require('../../../assets/images/drawer/user.png')}
         />
         <View style={{ paddingLeft: 15 }}>
-          <Text style={styles.userName}>John Doe</Text>
-          <Text style={{ color: '#4BC1FD' }}>Johndoe@gmail.com</Text>
+          <Text style={styles.userName}>Bilal </Text>
+          <Text style={{ color: '#4BC1FD' }}>ch_aryan2006@yahoo.com</Text>
         </View>
       </View>
       <View style={styles.divider} />
       {drawerData.map((item, idx) => (
         <DrawerItem
-          key={`drawer_item-${idx+1}`}
+          key={`drawer_item-${idx + 1}`}
           label={() => (
             <View
               style={styles.menuLabelFlex}>
               <Image
-                style={{ width: 20, height: 20}}
+                style={{ width: 20, height: 20 }}
                 source={item.icon}
               />
               <Text style={styles.menuTitle}>{item.name}</Text>
@@ -77,7 +77,7 @@ function CustomDrawerContent(props) {
         label={() => (
           <View style={styles.menuLabelFlex}>
             <Image
-              style={{ width: 20, height: 20}}
+              style={{ width: 20, height: 20 }}
               source={iconBlog}
             />
             <Text style={styles.menuTitle}>Blog</Text>
@@ -90,8 +90,8 @@ function CustomDrawerContent(props) {
         label={() => (
           <View style={styles.menuLabelFlex}>
             <Image
-              style={{ width: 20, height: 20}}
-              source={iconSettings} 
+              style={{ width: 20, height: 20 }}
+              source={iconSettings}
             />
             <Text style={styles.menuTitle}>Settings</Text>
           </View>
