@@ -30,7 +30,7 @@ const headerLeftComponent = (props) => {
           height: 20,
         }}
       />
-    </TouchableOpacity>    
+    </TouchableOpacity>
   )
 }
 
@@ -44,7 +44,7 @@ const StackNavigationData = [
     headerBackground: { source: headerBackground },
     headerTitleStyle: {
       fontFamily: fonts.primaryRegular,
-      color: colors.white,
+      color: colors.darkGray,
       fontSize: 18,
     },
   },

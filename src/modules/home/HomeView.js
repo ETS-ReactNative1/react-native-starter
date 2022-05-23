@@ -37,7 +37,7 @@ export default function HomeScreen({ isExtended, setIsExtended }) {
           <Text color="#555CC4" size={15}>
             The smartest Way to build your mobile app
           </Text>
-          <Text size={30} bold white style={styles.title}>
+          <Text color="#000000" size={30} style={styles.title}>
             React Native Starter
           </Text>
         </View>
@@ -110,6 +110,7 @@ const styles = StyleSheet.create({
   },
   title: {
     marginTop: 30,
+
   },
   price: {
     marginBottom: 5,
