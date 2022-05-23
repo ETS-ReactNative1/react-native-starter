@@ -12,7 +12,7 @@ const blueVersion = {
   gray: '#000000',
   darkGray: '#000000',
   lightGray: '#000000',
-  white: '#000000',
+  white: '#fff',
   blue: '#5A81F7',
   bluish: '#000000',
   black: '#000000',
