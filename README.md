@@ -1,7 +1,7 @@
 # React Native Starter 🚀
 
 ![image](https://user-images.githubusercontent.com/3157273/169802295-6e4fba0c-6226-46dd-a798-a0c072d6ada5.png)
-![Uploading image.png…]() 
+![image](https://user-images.githubusercontent.com/3157273/169805363-07000a64-cb73-4be9-a4b7-cb015249afb7.png)
 
 
 
