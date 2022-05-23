@@ -61,8 +61,8 @@ export default function HomeScreen({ isExtended, setIsExtended }) {
             >
               <Text white size={14}>
                 {isExtended
-                  ? 'Multiple Applications License'
-                  : 'Single Application License'}
+                  ? 'Multi App Prices'
+                  : 'Single App Price'}
               </Text>
             </TouchableOpacity>
           </View>
